@@ -59,7 +59,10 @@ ul > .hamburger-span{
 
 .details{
 	grid-column:2/3;
-	align-self: center;
+    align-self: center;
+    padding: 33px;
+    overflow: hidden;
+    position: relative;
 }
 
 .details h1{
@@ -194,7 +197,7 @@ ul > .hamburger-span{
 }
 
 
-.second_panel, .third_panel{
+.page-section{
 	position: absolute;
 	left:0;
 	bottom: 0;
@@ -320,4 +323,30 @@ ul > .hamburger-span{
     height: 93px;
     position: absolute;
     width: 375px;
+}
+
+
+.before-elements{
+    background: #232323;
+    height: 435px;
+    position: absolute;
+    width: 0%;
+    z-index: 99;
+    transform: translate(-1px, -101px);
+}
+
+.page_active_section{
+    position: static !important;
+    opacity: 1;
+}
+
+.img-s{
+    width: 390px !important;
+    min-width: 50% !important;
+}
+
+.img-th{
+    width: 254px;
+    transform: translateY(30px) !important;
+    min-width: 58% !important;
 }

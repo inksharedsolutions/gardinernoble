@@ -7,10 +7,12 @@ const Section = (props) =>{
         <>
             <section className={`page-section ${props.metaData.cl}`}>
                 <div className="details">
-                    <div className="block-elem-before"></div>
+                    <div className="before-elements"></div>
+
                     <span className="tagline-heading"> 
                         {props.metaData.title}
                     </span>
+
                     <h1 className="heading-wraps">
                         <span className="number-page">
                             <span>
@@ -30,21 +32,26 @@ const Section = (props) =>{
                             </span>
                         </span>
                     </h1>
+
                     <p className="paragraph-section">
                         <span className="wrapper-ft"></span>
                         {props.metaData.content}
                     </p>
+
                     <div className="block-elem-after"></div>
                 </div>
+
                 <div className="hero">
                     <div className="svg-bg">
                         <div className="image-wrapper-anim"></div>
-                        <img 
+                        <img
+                            className={`${props.metaData.imgCl}`}
                             alt={props.metaData.couple} 
-                            src={props.metaData.img} 
+                            src={props.metaData.img}
                         />
                     </div>
-                </div> 
+                    <div className="after-elements"></div>
+                </div>
             </section>
         </>
     )
