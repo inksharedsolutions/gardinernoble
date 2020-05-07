@@ -1,0 +1,9 @@
+
+@media only screen and (max-width: 950px) {
+    .page-section{
+        grid-template-columns: 5% 1fr 5%;
+    } 
+    .svg-bg,.svg-bg-author,.svg-bg-books{
+        display: none;
+    }
+}
