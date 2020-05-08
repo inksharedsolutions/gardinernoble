@@ -4,7 +4,12 @@ import PageNum from '../components/page-num'
 import  Section from '../components/section'
 import { Link } from "gatsby"
 import {Helmet} from "react-helmet"
-import { TweenMax, TimelineMax } from "gsap";
+
+import { TweenMax, TimelineMax, gsap } from "gsap";
+import { CSSPlugin } from 'gsap/CSSPlugin'
+
+
+
 //images
 import image1 from '../../static/img/couple.png'
 import image2 from '../../static/img/book_cover.png'
@@ -17,6 +22,9 @@ const IndexPage = () =>{
   const [sectState, __setFunctState] = useState(0);
   const [currState, ___setCurrState] = useState(0); 
 
+  // Force CSSPlugin to not get dropped during build
+  gsap.registerPlugin(CSSPlugin);
+  
   
   useEffect(() => {
 
@@ -29,9 +37,11 @@ const IndexPage = () =>{
           el.classList.add('page_active_section')
         }   
     });
-
-    const tl  = new TimelineMax();
     
+
+    //intialize...
+    const tl  = new TimelineMax();
+
     const animation  = (pageNum)=>{
 
       let nextPage =  elSection[pageNum];
