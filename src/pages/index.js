@@ -61,16 +61,15 @@ const IndexPage = () =>{
 
 
       /* Heading Animation*/
-      tl.to(imgWrapper, 1, {width: '0%'}
+      tl.to(imgWrapper, 1, {width: '0%'})   
         .to(np, 0.7, {right:'0'})
-        .to(wt, 0.7, { width: '0'}, {width:'0px'})
+        .to(wt, 0.7, { width: '0'}, {width:'0px'});
 
       tl.fromTo(fsh, 0.7, {y: '75'}, {y: '0', onComplete : ()=>{ 
           tl.fromTo(ssh, 0.7, {y: '75'}, { y: '0', })
       }}) 
 
-      
-
+    
       ___setCurrState(sectState);
       
     }     
@@ -90,8 +89,7 @@ const IndexPage = () =>{
 
     btnArrow.forEach(btn =>{
         btn.addEventListener('click', ()=>{
-        
-  
+
         })
     })
 
@@ -173,7 +171,7 @@ const IndexPage = () =>{
               </section>      
 
             </main>       
-          <PageNum/>       
+          <PageNum nextState={sectState}/>
         </header>        
       </div>
         

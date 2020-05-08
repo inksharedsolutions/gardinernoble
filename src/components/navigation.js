@@ -5,6 +5,7 @@ const Nav = () =>{
 
 	const refSpan  = useRef();
 	const [toggled, setToggled] = useState(false);
+	
 	const pages = [
 		 'home',
 		 'about-the-author', 
@@ -19,7 +20,7 @@ const Nav = () =>{
     return(		
         <> 
             <nav className="navigation">
-				<h1>Logo</h1>		
+				<h1>GN.</h1>		
 				<h1>Gardiner Noble.</h1>
 					<ul 
 						onClick={e => clickEvent(e)}
@@ -35,7 +36,9 @@ const Nav = () =>{
 						pages.map((e,_f)=>{
 							return (
 								<li key={_f}>
-									<Link>{e}</Link>
+									<Link>
+										{e
+									}</Link>
 								</li>
 							)
 						})

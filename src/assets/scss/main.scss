@@ -304,7 +304,7 @@ ul > .hamburger-span{
     overflow: hidden;
     span{
         position: relative;
-        right: -210px;
+        right: -310px;
     }
 }
 
@@ -341,12 +341,13 @@ ul > .hamburger-span{
 }
 
 .img-s{
-    width: 390px !important;
+    width: 356px !important;
     min-width: 50% !important;
+    transform: translate(35%, 7%) !important;
 }
 
 .img-th{
-    width: 254px;
-    transform: translateY(30px) !important;
-    min-width: 58% !important;
+    width: 258px !important;
+    transform: translate(100px, 46px) !important;
+    min-width: 64% !important;
 }

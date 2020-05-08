@@ -1,14 +1,31 @@
  import React from 'react'
 
 
-const PageNum = ()=>{
+const PageNum = (props)=>{
+
+    const activeNum = props.nextState + 1;
+    const activeSLides = ['list_1', 'list_2', 'list_3'];
+
      return(
         <> 
             <nav id="page-num">
-                <li className="active-page-num"></li>
-                <li></li>
-                <li></li>
-                <span className="page-count-num"><span>01 </span>/<span> 03</span></span>
+                {   
+                    activeSLides.map( (e, indx) =>{
+                        const elem = indx < activeNum ? 
+                            (
+                              <li key={e} 
+                                className="active-page-num">
+                              </li>
+                            ) 
+                             : (<li></li>)
+                        return(elem);
+                    })
+                }
+            
+                <span className="page-count-num">
+                    <span>{`0${activeNum}`}
+                    </span>/<span> 03</span>
+                </span>
             </nav>
         </>
      )
