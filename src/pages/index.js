@@ -9,7 +9,6 @@ import { TweenMax, TimelineMax, gsap } from "gsap";
 import { CSSPlugin } from 'gsap/CSSPlugin'
 
 
-
 //images
 import image1 from '../../static/img/couple.png'
 import image2 from '../../static/img/book_cover.png'
@@ -17,14 +16,12 @@ import image3 from '../../static/img/author.jpg'
 
 const IndexPage = (props) =>{
 
-
-  
-  const mainRef = useRef(null);
+  const mainRef = useRef(null); 
   const [sectState, __setFunctState] = useState(0);
   const [currState, ___setCurrState] = useState(0);
 
   // Force CSSPlugin to not get dropped during build
-  gsap.registerPlugin(CSSPlugin);
+  gsap.registerPlugin(CSSPlugin); 
   
   useEffect(() => {
 
