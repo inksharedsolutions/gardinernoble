@@ -9,4 +9,5 @@
 */
 
 import './src/assets/scss/main.scss'
+import './src/assets/scss/pages.scss'
 import './src/assets/scss/responsive.scss'
