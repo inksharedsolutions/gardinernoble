@@ -15,16 +15,16 @@ import image1 from '../../static/img/couple.png'
 import image2 from '../../static/img/book_cover.png'
 import image3 from '../../static/img/author.jpg'
 
+const IndexPage = (props) =>{
 
-const IndexPage = () =>{
 
+  
   const mainRef = useRef(null);
   const [sectState, __setFunctState] = useState(0);
-  const [currState, ___setCurrState] = useState(0); 
+  const [currState, ___setCurrState] = useState(0);
 
   // Force CSSPlugin to not get dropped during build
   gsap.registerPlugin(CSSPlugin);
-  
   
   useEffect(() => {
 
@@ -113,11 +113,9 @@ const IndexPage = () =>{
       <div id="parent-block"> 
 			  <header>
           
-          <Nav /> 
-            <main ref={mainRef} 
+          <Nav pathExt={props.path} /> 
+            <main ref={mainRef}
                   id="main-section">
-
-
               <Section 
                 metaData={{
                   title: `Sussies Sumbission`,
@@ -154,7 +152,7 @@ const IndexPage = () =>{
 
               <Section 
                 metaData={{
-                  title: `Author| Writer `,
+                  title: `Author | Writer `,
                   num: `03`,
                   cl : 'third_panel',
                   imgCl : 'img-th',

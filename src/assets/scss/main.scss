@@ -25,26 +25,32 @@ body{
 	border-bottom: 1px solid #292929;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+    align-items: center;
+    
+    ul {
+        padding: 1em 12px;
+        border-radius: 50%;
+        background: #f75d5d4d;
+        cursor: pointer;
+        position: relative;
+        z-index: 99999;
+    }
+
+    ul > .hamburger-span{
+        width: 25px;
+        display: block;
+        height: 3px;
+        background: #fff;
+        margin: 3px 0;
+        cursor: pointer;
+    }
+
+    h1{
+        font-weight: 900;
+        font-size: 1.6em;
+    } 
 }
 
-.navigation ul {
-    padding: 1em 12px;
-    border-radius: 50%;
-    background: #f75d5d4d;
-    cursor: pointer;
-    position: relative;
-    z-index: 99999;
-}
-
-ul > .hamburger-span{
-	width: 25px;
-    display: block;
-    height: 3px;
-    background: #fff;
-	margin: 3px 0;
-	cursor: pointer;
-}
 
 #parent-block{
 	color: #fff;
@@ -63,17 +69,19 @@ ul > .hamburger-span{
     padding: 33px;
     overflow: hidden;
     position: relative;
-}
 
-.details h1{
-	font-size: 4em;
-	text-align: right;
-}
-.details p{	
-    text-align: right;
-    margin-top: 2em;
-    width: 64%;
-    float: right;
+    h1{
+        font-size: 4em;
+        text-align: right;
+        font-weight:bold;
+    }
+
+    p{	
+        text-align: right;
+        margin-top: 2em;
+        width: 64%;
+        float: right;
+    }
 }
 
 .heading-wraps > span:nth-child(1){
@@ -247,14 +255,24 @@ ul > .hamburger-span{
     top: 0;
     background: #060606;
     right: 0;
+
+    .list-label{
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        color: #6d6868ee;
+        margin-bottom: 1.5em;
+    }
+
     ul{
-        text-align: center;
+        text-align: left;
         transform: translateY(10em);
+        margin: 0 3em;
     }
     li{
         list-style-type: none;
         font-size: 2em;
         padding: 17px 0;
+        font-weight: bold;
     }
     a{
         text-decoration: none;
@@ -272,7 +290,7 @@ ul > .hamburger-span{
 
     position: absolute;
     top: 86%;
-    left: 23%;
+    left: 34%;
 
     .arrow-left{
         padding: 1em 2em;

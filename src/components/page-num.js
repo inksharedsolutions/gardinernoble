@@ -5,19 +5,18 @@ const PageNum = (props)=>{
 
     const activeNum = props.nextState + 1;
     const activeSLides = ['list_1', 'list_2', 'list_3'];
-
-     return(
+    
+    return(
         <> 
             <nav id="page-num">
                 {   
-                    activeSLides.map( (e, indx) =>{
+                    activeSLides.map( (e, indx) =>{ 
                         const elem = indx < activeNum ? 
                             (
                               <li key={e} 
                                 className="active-page-num">
                               </li>
-                            ) 
-                             : (<li></li>)
+                            ) : (<li></li>)
                         return(elem);
                     })
                 }
@@ -28,7 +27,8 @@ const PageNum = (props)=>{
                 </span>
             </nav>
         </>
-     )
+    )
+    
 }
 
 
