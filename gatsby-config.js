@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Gardiner Noble`,
+    description: `this template is originally from strattonpress`,
+    author: `Gardiner Noble`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -35,12 +35,7 @@ module.exports = {
         name: `markdown-pages`,
       },
     },
-    {
-      resolve: "gatsby-plugin-sass",
-      options: {
-        useResolveUrlLoader: true,
-      },
-    },
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
