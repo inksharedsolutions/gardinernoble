@@ -35,7 +35,16 @@ module.exports = {
         name: `markdown-pages`,
       },
     },
-    `gatsby-plugin-sass`,
+    {
+      resolve: "gatsby-plugin-sass",
+      options: {
+        useResolveUrlLoader: {
+          options: {
+            debug: true,
+          },
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
