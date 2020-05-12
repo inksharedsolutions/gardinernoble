@@ -6,9 +6,6 @@ const Nav = (props) =>{
 	const refSpan  = useRef();
 	const [toggled, setToggled] = useState(false);
 
-
-
-
 	const pages = [
 		 'home',
 		 'about-the-author', 
@@ -26,7 +23,7 @@ const Nav = (props) =>{
 				<Link 
 					to={filterUrl}>
 					{e}
-				</Link>
+				</Link>	
 			</li>
 		)
 	})
@@ -37,19 +34,18 @@ const Nav = (props) =>{
 			
     return(		
         <> 
-			<nav className="navigation" 
-			
+			<nav className="navigation"
 				style={props.pathExt == '/' ? {
-						borderBottom: '1px solid #292929'
+						borderBottom: '1px solid rgb(41, 41, 41)'
 					}:{
 						borderBottom: '1px solid rgb(255, 255, 255)'
+						}
 					}
-				}
+				>
 
-					>
 				<h1>GN.</h1>		
 				<h1>Gardiner Noble.</h1>
-					<ul 
+					<ul
 						onClick={e => clickEvent(e)}
 						ref={refSpan}>
 						<span className="hamburger-span"></span>
