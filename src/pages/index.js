@@ -9,6 +9,10 @@ import { TweenMax, TimelineMax, gsap } from "gsap";
 import { CSSPlugin } from 'gsap/CSSPlugin'
 
 
+import { chevronLeft, chevronRight } from '@fortawesome/fontawesome-free-brands'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
+
 //images
 import image1 from '../../static/img/couple.png'
 import image2 from '../../static/img/book_cover.png'
@@ -166,11 +170,11 @@ const IndexPage = (props) =>{
                 
                 <button onClick={()=> 
                           __setFunctState(sectState > 0 ? sectState-1 : 0)}
-                        className="__btn arrow-left">Left</button>
+                        className="__btn arrow-left"><i class="gg-chevron-left"></i></button>
 
 
                 <button onClick={()=> __setFunctState( sectState < 2 ? sectState+1 : 2)}
-                      className="__btn arrow-right">Right</button>
+                      className="__btn arrow-right"><i class="gg-chevron-right"></i></button>
               </section>      
 
             </main>       

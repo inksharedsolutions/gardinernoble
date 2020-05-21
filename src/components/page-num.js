@@ -1,4 +1,5 @@
  import React from 'react'
+ 
 
 
 const PageNum = (props)=>{
@@ -23,7 +24,7 @@ const PageNum = (props)=>{
             
                 <span className="page-count-num">
                     <span>{`0${activeNum}`}
-                    </span>/<span> 03</span>
+                    </span> /<span> 03</span>
                 </span>
             </nav>
         </>
