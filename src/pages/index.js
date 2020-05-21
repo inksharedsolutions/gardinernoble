@@ -8,8 +8,7 @@ import {Helmet} from "react-helmet"
 import { TweenMax, TimelineMax, gsap } from "gsap";
 import { CSSPlugin } from 'gsap/CSSPlugin'
 
-
-import { chevronLeft, chevronRight } from '@fortawesome/fontawesome-free-brands'
+import {faTwitter, faInstagram, faFacebook, faGoodreads } from '@fortawesome/fontawesome-free-brands'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 
@@ -164,17 +163,49 @@ const IndexPage = (props) =>{
                   alt: `couple`,
                   }
                 }
-              />  
+              /> 
+
+              
+              <nav className={`navigation-list`}>
+                  <li>
+                      <a>
+                        <FontAwesomeIcon
+                            className='font-awesome'
+                            icon={faFacebook} />
+                      </a>
+                    </li>
+
+                    <li>
+                        <a>
+                          <FontAwesomeIcon
+                              className='font-awesome'
+                              icon={faTwitter} />
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                          <FontAwesomeIcon
+                              className='font-awesome'
+                              icon={faInstagram} />
+                        </a>
+                    </li>
+                    <li>
+                       <a>
+                          <FontAwesomeIcon
+                              className='font-awesome'
+                              icon={faGoodreads} />
+                      </a>
+                  </li>
+              </nav>
             
               <section className="button-arrows">
-                
-                <button onClick={()=> 
-                          __setFunctState(sectState > 0 ? sectState-1 : 0)}
-                        className="__btn arrow-left"><i class="gg-chevron-left"></i></button>
+                  <button onClick={()=> 
+                            __setFunctState(sectState > 0 ? sectState-1 : 0)}
+                          className="__btn arrow-left"><i class="gg-chevron-left"></i></button>
 
 
-                <button onClick={()=> __setFunctState( sectState < 2 ? sectState+1 : 2)}
-                      className="__btn arrow-right"><i class="gg-chevron-right"></i></button>
+                  <button onClick={()=> __setFunctState( sectState < 2 ? sectState+1 : 2)}
+                        className="__btn arrow-right"><i class="gg-chevron-right"></i></button>
               </section>      
 
             </main>       
