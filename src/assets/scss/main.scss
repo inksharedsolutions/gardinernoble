@@ -428,7 +428,6 @@ body{
     border: 2px solid transparent;
     border-radius: 100px
 }
-
 .gg-chevron-right::after {
     content: "";
     display: block;
@@ -444,11 +443,10 @@ body{
 }
 
 .navigation-list{
-
     display: flex;
     position: absolute;
     top: 88%;
-    left: 13%;
+    left: 18%;
 
     li{
         text-decoration: none;
@@ -457,7 +455,6 @@ body{
         a{
             padding: 0 1em;
             color: #fff;
-        }
-        
+        } 
     }
 }
