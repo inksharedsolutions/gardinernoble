@@ -158,7 +158,7 @@ body{
 /* Images SVG*/
 .svg-bg{
     img{
-        width: 427px;
+        width: auto;
         text-align: center;
         min-width: 85%;
         margin: 0 auto;
@@ -252,7 +252,7 @@ body{
     height: 100vh;
     position: absolute;
     z-index: 999;
-    width: 50%;
+    width: 30%;
     top: 0;
     background: #060606;
     right: 0;
@@ -268,6 +268,10 @@ body{
         text-align: left;
         transform: translateY(10em);
         margin: 0 3em;
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+        justify-content: center;
     }
     li{
         list-style-type: none;
@@ -330,7 +334,7 @@ body{
 
 .image-wrapper-anim{
     background: #272727;
-    height: 500px;
+    height: 80vh;
     position: absolute;
     width: 40%;
     z-index: 99;
@@ -339,11 +343,10 @@ body{
 
 .wrapper-ft{
     background: #383737;
-    height: 93px;
+    height: 27vh;
     position: absolute;
     width: 375px;
 }
-
 
 .before-elements{
     background: #232323;
@@ -362,11 +365,11 @@ body{
 .img-s{
     width: 356px !important;
     min-width: 50% !important;
-    transform: translate(35%, 7%) !important;
+    transform: translate(51%, 140px) !important;
 }
 
 .img-th{
     width: 258px !important;
-    transform: translate(100px, 46px) !important;
+    transform: translate(100px, 80px) !important;
     min-width: 64% !important;
 }

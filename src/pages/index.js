@@ -12,7 +12,7 @@ import { CSSPlugin } from 'gsap/CSSPlugin'
 //images
 import image1 from '../../static/img/couple.png'
 import image2 from '../../static/img/book_cover.png'
-import image3 from '../../static/img/author.jpg'
+import image3 from '../../static/img/author.png'
 
 const IndexPage = (props) =>{
 
@@ -91,8 +91,6 @@ const IndexPage = (props) =>{
           animation(sectState);
       }
     }
-
-
 
     btnArrow.forEach(btn =>{
         btn.addEventListener('click', ()=>{
