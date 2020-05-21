@@ -22,7 +22,7 @@ const Nav = (props) =>{
 			<li>
 				<Link 
 					to={filterUrl}>
-					{e}
+					{e.replace(/[-/]/g," ").trim().toLowerCase() }
 				</Link>	
 			</li>
 		)
@@ -38,7 +38,7 @@ const Nav = (props) =>{
 				style={props.pathExt == '/' ? {
 						borderBottom: '1px solid rgb(41, 41, 41)'
 					}:{
-						borderBottom: '1px solid rgb(53, 53, 53)'
+						borderBottom: '1px solid rgb(255, 255, 255)'
 						}
 					}
 				>
