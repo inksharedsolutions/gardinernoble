@@ -18,7 +18,8 @@ p{
 body{
 	font-family: 'Poppins', sans-serif !important;
 }
- 
+
+
 .navigation{
 	min-height: 10vh;	
 	width: 90%;
@@ -52,7 +53,6 @@ body{
     } 
 }
 
-
 #parent-block{
 	color: #fff;
     background: linear-gradient(#232323, #1d1d1d);
@@ -80,8 +80,9 @@ body{
     p{	
         text-align: right;
         margin-top: 2em;
-        width: 64%;
+        width: 90%;
         float: right;
+        color: #808080;
     }
 }
 
@@ -170,7 +171,6 @@ body{
         text-align: center;
         min-width: 85%;
         margin: 0 auto;
-        // transform: translate(12%, 0%);    
     }
 }
 
@@ -451,6 +451,7 @@ body{
 }
 
 .navigation-list{
+    
     display: flex;
     position: absolute;
     top: 88%;
@@ -463,6 +464,22 @@ body{
         a{
             padding: 0 1em;
             color: #fff;
-        } 
+        }
     }
+
+}       
+
+.btn-span-elements{
+    pointer-events: all;
+    float: none;
+    clear: both;
+    text-align: right;
+
+    a{
+        color: #fff;
+        text-decoration: underline;
+        display: block;
+        padding: 1em 0;
+    }
+
 }

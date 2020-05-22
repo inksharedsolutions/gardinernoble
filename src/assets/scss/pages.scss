@@ -1,5 +1,15 @@
 
 
+
+/*Pages*/
+
+
+@import "responsive.scss";
+
+$primary-font: "Quicksand", sans-serif !important;
+$prm-font-size : 12px;
+
+
 .web-banner{
     height: 300px;
     background-attachment: fixed;
@@ -29,17 +39,6 @@
     align-items: center;
 }
 
-
-
-/*Pages*/
-
-
-@import "responsive.scss";
-
-$primary-font: "Quicksand", sans-serif !important;
-$prm-font-size : 12px;
-
-
 .columns{
 	margin-bottom: 0;
 }
@@ -53,12 +52,12 @@ $prm-font-size : 12px;
 .heading-quote{
 
     padding: 0 59px;
-    margin-top: 17px;
+    margin: 3.1em 0;
 
 	h4{
 	    font-weight: 100;
 	    line-height: 1.7;
-	    font-size: 20px;
+        font-size: 16px;
 	    font-style: italic;
 	    margin-top: 49px !important;
 	}
@@ -75,10 +74,10 @@ $prm-font-size : 12px;
 
 .author-image-container{
 	img{
-	    width: 178px;
+        width: 770px;
 	    border: 12px solid #e0e0db57;
 	}
-}
+}       
 
 .article-section{
 	p{
@@ -91,17 +90,20 @@ $prm-font-size : 12px;
 }
 
 .author-name{
-    position: absolute;
+    
+    // position: absolute;
     font-size: 26px;
-    margin: 0 16px;
-
+    margin: 2em 16px;
+    display: block;
+    text-align: right;
+    
     .author-span-ft{
-	    display: block;
-	    font-size: 9px;
-	    letter-spacing: 4px;
-	    margin-bottom: 9px;
-	    color: #e2b510;
-	    text-transform: uppercase;
+        display: block;
+        font-size: 9px;
+        letter-spacing: 4px;
+        margin-bottom: 9px;
+        color: #ec360c;
+        text-transform: uppercase;
     }
 }
 
@@ -124,7 +126,7 @@ $prm-font-size : 12px;
 }
 
 .fullSection{
-    padding: 2em 3em;
+    // padding: 2em 3em;
     line-height: 0;
 }
 
@@ -132,7 +134,7 @@ $prm-font-size : 12px;
 
     text-align: justify;
     line-height: 2;
-    padding: 2rem;
+    // padding: 2rem;
     
     p{
     	margin-bottom: 14px;
@@ -387,7 +389,6 @@ $prm-font-size : 12px;
 }
 
 
-
 .contentBook{
     h1{
        text-align: left;
@@ -401,9 +402,15 @@ $prm-font-size : 12px;
         color: #383838ee;
         margin: 0.5em 0;
         display: block;
+        font-size: 1.5em;
     }
 
     p{
         margin-top: 3em;   
     }
+}
+
+
+.book-container-ft{
+    margin-bottom: 4em !important;
 }

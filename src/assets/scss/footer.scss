@@ -9,7 +9,7 @@
 	text-align: right;
 
 	a{
-      padding: 0 26px;
+	  padding: 0 14px;
       color: #eee;
 	}
 }
@@ -27,16 +27,17 @@
 // }
 
 .trademark-heading{
+
 	h1{
 		text-align: left;
-		color: #eeee;
+		color: #fffe;
 		text-transform: uppercase;
 		display: inline-block;
 		font-weight: 900;
 		font-size: 2em;
-		letter-spacing: 7px;
-	    // margin-left: 1.45em !important;
+		letter-spacing: 0px;
 	}
+
 	p{
 		font-size: 12px;
 	    margin-top: 20px;
@@ -133,3 +134,9 @@
 	    }
     }
 }
+
+.logo-ft{
+    a{
+        color:#fff !important; 
+    }
+} 

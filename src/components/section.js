@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "gatsby"
 
 
 const Section = (props) =>{
@@ -39,6 +40,12 @@ const Section = (props) =>{
                     </p>
 
                     <div className="block-elem-after"></div>
+
+                    <div className="btn-span-elements">
+                        <Link to={props.metaData.pathRedirect} >
+                            Read More
+                        </Link>
+                     </div>
                 </div>
 
                 <div className="hero">
@@ -52,6 +59,7 @@ const Section = (props) =>{
                     </div>
                     <div className="after-elements"></div>
                 </div>
+
             </section>
         </>
     )

@@ -39,8 +39,11 @@ const Footer = (props) =>{
 							<div className="logo-footer-container">
 
 								<span className="images-portray">
-									<h1>GN.</h1>
+									<h1 clasName="logo-ft">
+										GN.
+									</h1>
 								</span>
+
 							</div>
 						
 							<p>
@@ -88,7 +91,7 @@ const Footer = (props) =>{
 							<nav id="style_soc_medias">
 
 								<a
-									href="https://www.facebook.com/Valentine-Cardinale-524247524709624/"
+									href="https://www.facebook.com/Gardiner-Noble-109086423843114/"
 									target="_blank"
 									rel="noopener noreferrer" >
 
@@ -119,7 +122,7 @@ const Footer = (props) =>{
 								</a>
 
 								<a 
-									href="https://www.goodreads.com/book/show/45784456-the-west-side-kid"
+									href="https://www.goodreads.com/author/show/19650580.Gardiner_Noble"
 									target="_blank"
 									rel="noopener noreferrer">
 

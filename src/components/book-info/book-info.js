@@ -5,7 +5,7 @@ import React from 'react'
 const BookInfo = (props)=>{
     return(
         <>
-            <div className="columns">
+            <div className="columns book-container-ft">
                 <div className="column"> 
                     <div className="bookImgContainer">
                         <img alt="main-book" src={props.data.imgSrc} />
@@ -26,7 +26,7 @@ const BookInfo = (props)=>{
                         <nav className="booklinkBlocks">
                             <span>Ebooks :</span>
                             <li><a rel="noopener noreferrer" target="_blank" href={props.data.ebooks.amazon}>Amazon</a></li>
-                            <li><a rel="noopener noreferrer" target="_blank" href={props.data.ebooks.sratton}>Stratton Press</a></li>
+                            <li><a rel="noopener noreferrer" target="_blank" href={props.data.ebooks.stratton}>Stratton Press</a></li>
                             <li><a rel="noopener noreferrer" target="_blank" href={props.data.ebooks.barnes}>Barnes & Noble</a></li>
                         </nav>
 

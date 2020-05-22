@@ -121,13 +121,15 @@ const IndexPage = (props) =>{
                   num: `01`,
                   cl : 'first_panel',
                   bgClass : `first_svg_bg`,
+                  pathRedirect:`/about-the-book`,
                   imgCl : 'img-f',
                   img: image1,
                   spanFirst :`Anthology of`,
                   spanSecond : `Three Stories`,
-                  content : `About attractive middle-aged women who
-                  have been abandoned by their husbands. 
-                  “The Price,” “The Office,” and “The Hot Tub”`,
+                  content:`Noble’s novel is a saucy little satire on human frailty.
+                   It dramatizes not only the mistakes our egos and libidos often 
+                   lead us into but also our inherent intellectual ability to rationalize
+                    and accept less than honorable behavior.”`,
                   alt: `couple`,
                   }
                 }
@@ -139,6 +141,7 @@ const IndexPage = (props) =>{
                   num: `02`,
                   cl : 'second_panel',
                   bgClass : `second_svg_bg`,
+                  pathRedirect:`/about-the-book`,
                   imgCl : 'img-s',
                   img: image2,
                   spanFirst :`Sussies`,
@@ -157,13 +160,13 @@ const IndexPage = (props) =>{
                   num: `03`,
                   cl : 'third_panel',
                   bgClass : `third_svg_bg`,
+                  pathRedirect:`/about-the-author`,
                   imgCl : 'img-th',
                   img: image3,
                   spanFirst :`Gardiner`,
                   spanSecond : `Noble`,
-                  content : `About attractive middle-aged women who
-                  have been abandoned by their husbands. 
-                  “The Price,” “The Office,” and “The Hot Tub”`,
+                  content : `Gardiner Noble is a retired electrical engineer who 
+                  spent forty years in the automobile. ”`,
                   alt: `couple`,
                   }
                 }
@@ -172,7 +175,10 @@ const IndexPage = (props) =>{
               
               <nav className={`navigation-list`}>
                   <li>
-                      <a>
+                      <a 
+                        href="https://www.facebook.com/Gardiner-Noble-109086423843114/"
+                        target="_blank"
+                      >
                         <FontAwesomeIcon
                             className='font-awesome'
                             icon={faFacebook} />
@@ -180,21 +186,30 @@ const IndexPage = (props) =>{
                     </li>
 
                     <li>
-                        <a>
+                        <a
+                         href="https://twitter.com/strattonpress/"
+                         target="_blank"
+                        >
                           <FontAwesomeIcon
                               className='font-awesome'
                               icon={faTwitter} />
                         </a>
                     </li>
                     <li>
-                        <a>
+                        <a
+                          href="https://www.instagram.com/strattonpress/"
+                          target="_blank"
+                        >
                           <FontAwesomeIcon
                               className='font-awesome'
                               icon={faInstagram} />
                         </a>
                     </li>
                     <li>
-                       <a>
+                       <a
+                          href="https://www.goodreads.com/author/show/19650580.Gardiner_Noble"
+                          target="_blank"
+                        >
                           <FontAwesomeIcon
                               className='font-awesome'
                               icon={faGoodreads} />
@@ -203,13 +218,18 @@ const IndexPage = (props) =>{
               </nav>
             
               <section className="button-arrows">
-                  <button onClick={()=> 
-                            __setFunctState(sectState > 0 ? sectState-1 : 0)}
-                          className="__btn arrow-left"><i class="gg-chevron-left"></i></button>
+
+                  <button 
+                      onClick={()=> 
+                      __setFunctState(sectState > 0 ? sectState-1 : 0)}
+                      className="__btn arrow-left"><i class="gg-chevron-left"></i></button>
 
 
-                  <button onClick={()=> __setFunctState( sectState < 2 ? sectState+1 : 2)}
-                        className="__btn arrow-right"><i class="gg-chevron-right"></i></button>
+                  <button 
+                      onClick={()=>
+                      __setFunctState( sectState < 2 ? sectState+1 : 2)}
+                    className="__btn arrow-right"><i class="gg-chevron-right"></i></button>
+
               </section>      
 
             </main>       

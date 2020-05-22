@@ -43,7 +43,17 @@ const Nav = (props) =>{
 					}
 				>
 
-				<h1>GN.</h1>		
+				<h1>
+					<Link 
+						style={props.pathExt == '/' ? {
+							color:'#fff'
+						}:{
+							color: '#000'
+						}}
+						to="/"
+					>GN.</Link>
+				</h1>
+
 				<h1>Gardiner Noble.</h1>
 					<ul
 						onClick={e => clickEvent(e)}
