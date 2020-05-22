@@ -42,7 +42,7 @@ const Section = (props) =>{
                 </div>
 
                 <div className="hero">
-                    <div className="svg-bg">
+                    <div className={`svg-bg ${props.metaData.bgClass}`}>
                         <div className="image-wrapper-anim"></div>
                         <img
                             className={`${props.metaData.imgCl}`}

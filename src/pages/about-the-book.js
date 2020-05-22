@@ -1,9 +1,12 @@
 import React from 'react'
-import Book from '../../static/img/book_cover.png'
+import Book1 from '../../static/img/book_cover.png'
+import Book2 from '../../static/img/book_cover_2.png'
+import Book3 from '../../static/img/book_cover_3.png'
+
 import { DiscussionEmbed } from "disqus-react"
 import Layout from '../components/layout'
 import Banner from '../components/banner'
-
+import BookInfo  from '../components/book-info/book-info'
 
 const abouttheauthor= (props) =>{
 
@@ -12,7 +15,7 @@ const abouttheauthor= (props) =>{
 	  shortname: 'ruth-claxton',
 	  config: { identifier:  12, slug}
 	}
-	
+
 	const bannerText = (
 		<>
 			<span className="banr-tagline-fx">Gardiner Noble</span>
@@ -33,53 +36,111 @@ const abouttheauthor= (props) =>{
 
 			<main className="wrapperMain">
 				<div className='container'>
-						<div className="columns">
-						
-							<div className="column">
-								<div className="bookImgContainer">
-									<img alt="main-book" src={Book} />
-								</div>
-							</div>
 
-							<div className="column">
-								<section className="contentBook">
-									<p>
-									 	Rachel’s story is a true one of young love, joys, and triumphs experienced, 
-									 	but also is about difficulties of being and staying together as they are beset 
-									 	by hardships, disappointments, and struggles toward making a good life for themselves. 
-									</p>
+
+							<BookInfo  
+								data={{
+									title:`Susies Submissions`,
+									spanTitle: '',
+									imgSrc: Book1,
+									content:
+									`With over five decades of service to his country,
+									Hal is certainly not a man to be easily detoured or dissuaded from his mission.
+									This book is a real testament of how long-suffering, perseverance, loyalty,
+									integrity, and patriotism. Hal's wit and humor which he never outgrew even until today,
+									allowed him to associate with highly recognized and well-established people. 
+									His life really began after he was kicked out by his father.
 									
-									<p>
-										Her story begins in her early teens while growing up in Southern Kentucky and being 
-										the oldest child in a large family of very strict parents. She relates of the rigors
-										involved during post–Great Depression years, through WWII, and in her high school years.
-										As a senior in high school with a diploma, a certainty along with a lucrative scholarship 
-										promised, she begins to see that her dreams of becoming a teacher can really happen. 
-									</p>
-								</section>
+									He had a bitter childhood that continued well into his teens,
+									but everything changed after he became a member of the United States Marine Corps.
+									His success was not given to him on a silver platter, it was definitely a roller-coaster adventure. 
+									He lived, he laughed, he cried, he loved, he fell, and he rose yet again.
+									From an Outhouse to the White House, and Then Some, will show you just how he did it.`,
 
-                                <section className="fullSection">
-                                    <nav className="booklinkBlocks">
-                                        <span>Ebooks :</span>
-                                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Early-Years-Memoir-Matters-Heart/dp/164345434X/ref=sr_1_2?dchild=1&qid=1585108690&refinements=p_27%3ARachel+G.+Carrington&s=books&sr=1-2&text=Rachel+G.+Carrington">Amazon</a></li>
-                                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.stratton-press.com/books/the-early-years-a-memoir-matters-of-the-heart-book-1/">Stratton Press</a></li>
-                                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.barnesandnoble.com/w/the-early-years-rachel-g-carrington/1122308519?ean=9781491765685">Barnes & Noble</a></li>
-                                    </nav>
+									ebooks:{
+										stratton : 'https://www.stratton-press.com/books/from-an-out-house-to-the-white-house-and-then-some/',
+										barnes: 'https://www.barnesandnoble.com/w/from-an-out-house-to-the-white-house-hal-davis/1136867362?ean=9781648950179',
+										amazon :'https://www.amazon.com/Out-House-White-Then-Some-ebook/dp/B0875KQW9Q/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1588017993&sr=8-1', 
+									},
+									paperback:{
+										amazon:'https://www.amazon.com/Out-House-White-Then-Some/dp/1648950159/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1588017993&sr=8-1',
+										barnes:'https://www.barnesandnoble.com/w/from-an-out-house-to-the-white-house-hal-davis/1136867362?ean=9781648950155',
+										booksamillion:'https://www.booksamillion.com/p/From-Out-House-White/Hal-Davis/9781648950155?id=7714171848832',
+									}
+								}}
+							/>
 
-                                    <nav className="booklinkBlocks">
-                                        <span>Purchase Paperbook :</span>
-                                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Early-Years-Memoir-Matters-Heart/dp/164345434X/ref=sr_1_2?dchild=1&qid=1585108690&refinements=p_27%3ARachel+G.+Carrington&s=books&sr=1-2&text=Rachel+G.+Carrington">Amazon</a></li>
-                                        <li><a rel="noopener noreferrer" target="_blank" href="">Barnes & Noble </a></li>
-                                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.booksamillion.com/p/Early-Years/Rachel-G-Carrington/9781491765692?id=7851112015457">Books A Million</a></li>
-                                    </nav>
-                                </section>
-							</div>						
-						</div>
+							<BookInfo  
+								data={{
+									title:`Beliefs`,
+									spanTitle: '',
+									imgSrc: Book2,
+									content:
+									`With over five decades of service to his country,
+									Hal is certainly not a man to be easily detoured or dissuaded from his mission.
+									This book is a real testament of how long-suffering, perseverance, loyalty,
+									integrity, and patriotism. Hal's wit and humor which he never outgrew even until today,
+									allowed him to associate with highly recognized and well-established people. 
+									His life really began after he was kicked out by his father.
+									
+									He had a bitter childhood that continued well into his teens,
+									but everything changed after he became a member of the United States Marine Corps.
+									His success was not given to him on a silver platter, it was definitely a roller-coaster adventure. 
+									He lived, he laughed, he cried, he loved, he fell, and he rose yet again.
+									From an Outhouse to the White House, and Then Some, will show you just how he did it.`,
+
+									ebooks:{
+										stratton : 'https://www.stratton-press.com/books/beyond-the-mountains-and-across-the-seas-over-50-years-of-romanticizing-travel/',
+										barnes: 'https://www.barnesandnoble.com/w/beyond-the-mountains-and-across-the-seas-hal-davis/1136867361?ean=9781648950148',
+										amazon :'https://www.amazon.com/Beyond-Mountains-Across-Seas-Romanticizing-ebook/dp/B0875T5BJQ/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1589582810&sr=8-1', 
+									},
+									paperback:{
+										amazon:'https://www.amazon.com/Beyond-Mountains-Across-Seas-Romanticizing/dp/1648950124/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1589582810&sr=8-1',
+										barnes:'https://www.barnesandnoble.com/w/beyond-the-mountains-and-across-the-seas-hal-davis/1136867361?ean=9781648950124',
+										booksamillion:'https://www.booksamillion.com/p/Beyond-Mountains-Across-Seas/Hal-Davis/9781648950124?id=7714171848832',
+								}
+							}}
+						/>
+
+						<BookInfo  
+								data={{
+									title:`Silken Thomas Fitzgerald`,
+									spanTitle: 'Henry the VIIs Irish Thorn',
+									imgSrc: Book3,
+									content:
+									`With over five decades of service to his country,
+									Hal is certainly not a man to be easily detoured or dissuaded from his mission.
+									This book is a real testament of how long-suffering, perseverance, loyalty,
+									integrity, and patriotism. Hal's wit and humor which he never outgrew even until today,
+									allowed him to associate with highly recognized and well-established people. 
+									His life really began after he was kicked out by his father.
+									
+									He had a bitter childhood that continued well into his teens,
+									but everything changed after he became a member of the United States Marine Corps.
+									His success was not given to him on a silver platter, it was definitely a roller-coaster adventure. 
+									He lived, he laughed, he cried, he loved, he fell, and he rose yet again.
+									From an Outhouse to the White House, and Then Some, will show you just how he did it.`,
+
+									ebooks:{
+										stratton : 'https://www.stratton-press.com/books/beyond-the-mountains-and-across-the-seas-over-50-years-of-romanticizing-travel/',
+										barnes: 'https://www.barnesandnoble.com/w/beyond-the-mountains-and-across-the-seas-hal-davis/1136867361?ean=9781648950148',
+										amazon :'https://www.amazon.com/Beyond-Mountains-Across-Seas-Romanticizing-ebook/dp/B0875T5BJQ/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1589582810&sr=8-1', 
+									},
+									paperback:{
+										amazon:'https://www.amazon.com/Beyond-Mountains-Across-Seas-Romanticizing/dp/1648950124/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1589582810&sr=8-1',
+										barnes:'https://www.barnesandnoble.com/w/beyond-the-mountains-and-across-the-seas-hal-davis/1136867361?ean=9781648950124',
+										booksamillion:'https://www.booksamillion.com/p/Beyond-Mountains-Across-Seas/Hal-Davis/9781648950124?id=7714171848832',
+								}
+							}}
+						/>
+
+						
 							
 						<div className="commentSection" >
 						  <DiscussionEmbed {...disqusConfig} />
 						</div>
 
+			
 				</div>	
 			</main>
 

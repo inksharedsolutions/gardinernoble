@@ -114,11 +114,13 @@ const IndexPage = (props) =>{
           <Nav pathExt={props.path} /> 
             <main ref={mainRef}
                   id="main-section">
+
               <Section 
                 metaData={{
                   title: `Sussies Sumbission`,
                   num: `01`,
                   cl : 'first_panel',
+                  bgClass : `first_svg_bg`,
                   imgCl : 'img-f',
                   img: image1,
                   spanFirst :`Anthology of`,
@@ -136,6 +138,7 @@ const IndexPage = (props) =>{
                   title: `Featured Book`,
                   num: `02`,
                   cl : 'second_panel',
+                  bgClass : `second_svg_bg`,
                   imgCl : 'img-s',
                   img: image2,
                   spanFirst :`Sussies`,
@@ -153,6 +156,7 @@ const IndexPage = (props) =>{
                   title: `Author | Writer `,
                   num: `03`,
                   cl : 'third_panel',
+                  bgClass : `third_svg_bg`,
                   imgCl : 'img-th',
                   img: image3,
                   spanFirst :`Gardiner`,

@@ -58,7 +58,7 @@ const Footer = (props) =>{
 						</div>
 					</div>
 
-					<div className="columns">
+					<div className="columns lowr-footer-container">
 						<div className="column">
 							<span className="footer-copyright">
 

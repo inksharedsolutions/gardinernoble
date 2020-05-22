@@ -57,13 +57,14 @@
 	text-align: right;
 	li {
 		display: inline-block;
-   		padding: 10px 25px;
-   		text-transform: uppercase;
+		padding: 4px 1em;
+   		text-transform: capitalize;
     	font-size: 12px;
 	}
 
 	a{
-		color: #fff;
+	    color: #9a9a9a;
+   		font-size: 14px;
 	}
 
 	&:after{

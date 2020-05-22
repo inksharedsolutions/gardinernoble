@@ -38,37 +38,16 @@ import Layout from '../components/layout'
 
                             <div className="column">
                                 <article className="article-section">
-
                                     <p>
-                                        Rachel G Carrington was born in a small southern Kentucky town in 1930. 
-                                        She was first-born of eleven children to loving, but strict, low-income parents
-                                        who struggled to keep food on the table and could afford little more than that. 
-                                        Attending school and earning a high school diploma was a given but, lack of funds
-                                        made further education impossible.
+                                         Gardiner Noble is a retired electrical engineer who spent forty years in the automobile. 
+                                         He is the inventor of the coil-on-plug ignition system, which is used in most cars manufactured around the world.
                                     </p>
 
                                     <p>
-                                        Rachel's desire to learn made it easy to comply with her parent's demands 
-                                        of school attendance and, as a result, she was offered a prestigious scholarship 
-                                        during her senior year of high school. A common wad of paper changed things 
-                                        drastically, causing her to abruptly choose another path.
+                                        He has written several books: One, Silken Thomas 
+                                        Fitzgerald (Henry the Eighth's Irish Thorn), Beliefs, and The Gleeful Banker.
+                                        He is in the process of writing a serious book that explains why the human body ages.
                                     </p>	
-
-                                    <p>
-                                        Though void of higher education, fantastic employment or honors earned, 
-                                        Rachel's multifaceted life was filled with a special kind of joy in her 
-                                        sixty-two years of marriage. Follow her journey as she travels this 
-                                        path through hardships and successes, filled with love as she and her 
-                                        chosen mate successfully bring two families together and work toward 
-                                        success in making life easier for all concerned. Through it all, the Carringtons 
-                                        trust in the heavenly Father to see them through.
-
-                                        Rachel now makes her home in Ocala Florida. Besides her early life in Kentucky,
-                                        she has previously resided in Butler County Ohio and Honolulu (Waikiki) Hawaii.
-                                        She continues to write and hopes to have a sequel to The Early Years in the 
-                                        near future.
-                                    </p>
-
                                 </article>
                             </div>
                     </section>
