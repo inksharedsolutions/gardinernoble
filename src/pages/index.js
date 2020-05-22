@@ -19,6 +19,9 @@ import image3 from '../../static/img/author.png'
 
 const IndexPage = (props) =>{
 
+
+  console.log(props);
+  
   const mainRef = useRef(null); 
   const [sectState, __setFunctState] = useState(0);
   const [currState, ___setCurrState] = useState(0);
