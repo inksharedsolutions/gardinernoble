@@ -35,7 +35,7 @@ const Nav = (props) =>{
     return(		
         <> 
 			<nav className="navigation"
-				style={props.pathExt == '/' ? {
+				style={props.pathExt === '/' || props.pathExt === ''  ? {
 						borderBottom: '1px solid rgb(41, 41, 41)'
 					}:{
 						borderBottom: '1px solid rgb(255, 255, 255)'
@@ -45,8 +45,8 @@ const Nav = (props) =>{
 
 				<h1>
 					<Link 
-						style={props.pathExt == '/' 
-						 	|| props.pathExt == '' ? {
+						style={props.pathExt === '/' 
+						 	|| props.pathExt === '' ? {
 							color:'#fff'
 						}:{
 							color: '#000'

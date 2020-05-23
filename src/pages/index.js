@@ -15,13 +15,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 //images
 import image1 from '../../static/img/couple.png'
 import image2 from '../../static/img/book_cover.png'
-import image3 from '../../static/img/author.png'
+import image3 from '../../static/img/author_image.jpg'
 
 const IndexPage = (props) =>{
 
 
   console.log(props);
-  
+
   const mainRef = useRef(null); 
   const [sectState, __setFunctState] = useState(0);
   const [currState, ___setCurrState] = useState(0);

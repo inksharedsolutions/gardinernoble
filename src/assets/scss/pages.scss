@@ -16,18 +16,20 @@ $prm-font-size : 12px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: #eee;
+    background-image: url("../../../static/img/non_front_bg.jpg");
 
     span{
         letter-spacing: 1.1em;
         text-transform: uppercase;
         line-height: 2;
+        color: #989393;
     }
 
     h1{
         font-size: 4em;
         font-weight: 900;
         text-transform: uppercase;
+        color: #fff;
     }
 }
 

@@ -260,7 +260,7 @@ body{
     height: 100vh;
     position: absolute;
     z-index: 999;
-    width: 30%;
+    width: 50%;
     top: 0;
     background: #060606;
     right: 0;
@@ -482,4 +482,15 @@ body{
         padding: 1em 0;
     }
 
+}
+
+.third_svg_bg{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    .img-th{
+        width: 500px;
+        height: auto;
+        min-width: 50% !important;
+    }
 }
