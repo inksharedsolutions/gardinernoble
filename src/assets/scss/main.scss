@@ -489,8 +489,22 @@ body{
     height: 100%;
     align-items: center;
     .img-th{
-        width: 500px;
+        width: 350px;
         height: auto;
         min-width: 50% !important;
+        position: relative;
+        z-index: 10;
     }
-}
+
+
+    &:after{
+        content: '';
+        background: #ff5f5f0f;
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        padding: 20px;
+        z-index: 1;
+        transform: translate(43px, 52px);
+    }
+}       
