@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Gardiner Noble`,
-    description: `this template is originally from strattonpress`,
+    description: `this template is originally from Stratton Press`,
     author: `Gardiner Noble`,
   },
   plugins: [
