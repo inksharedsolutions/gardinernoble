@@ -23,7 +23,7 @@ const Footer = (props) =>{
 			<li>
 				<Link 
 					to={filterUrl}>
-					{e}
+					{e.replace(/[-/]/g," ").trim().toLowerCase()}
 				</Link>
 			</li>
 		)
