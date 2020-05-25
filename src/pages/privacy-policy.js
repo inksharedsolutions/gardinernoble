@@ -4,7 +4,7 @@ import Banner from '../components/banner'
 import { useStaticQuery, graphql } from "gatsby"
 import Parser from 'html-react-parser';
 
-const Pp = () =>{
+const Pp = (props) =>{
 
 
 	const bannerText = (
@@ -38,7 +38,7 @@ const Pp = () =>{
 
 	return(
 		<>
-		 	<Layout>
+		 	<Layout extPath={props.path}>
 
                 <Banner 
                     spanFirst={`Privacy`}

@@ -4,11 +4,11 @@ import '../assets/scss/pages.scss'
 import Layout from '../components/layout'
 import AuthorImg from '../../static/img/img_author_square.png'
 
- const ABA = ()=>{
+ const ABA = (props)=>{
 
      return(
         <> 
-            <Layout>
+            <Layout extPath={props.path}>
                 <Banner 
                     spanFirst={`About the`}
                     contextHeading={`Author`} 

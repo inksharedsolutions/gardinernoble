@@ -8,8 +8,9 @@ import { DiscussionEmbed } from "disqus-react"
 import Layout from '../components/layout'
 import Banner from '../components/banner'
 import BookInfo  from '../components/book-info/book-info'
+import ABA from './about-the-author'
 
-const abouttheauthor= (props) =>{
+const ATA= (props) =>{
 
 	const slug =(props.location.href);
 	const disqusConfig = {
@@ -18,7 +19,7 @@ const abouttheauthor= (props) =>{
 	}
 
 	const bannerText = (
-		<>
+		<>	
 			<span className="banr-tagline-fx">Gardiner Noble</span>
 			<h1 className="banr-header-fx">
 				About the
@@ -28,11 +29,11 @@ const abouttheauthor= (props) =>{
 	)
 
 	return(
-		<Layout>
+		<Layout extPath={props.path}>
 			
             <Banner 
                     spanFirst={`About the`}
-                    contextHeading={`Book`} 
+					contextHeading={`Book`}
             />
 
 			<main className="wrapperMain">
@@ -165,4 +166,4 @@ const abouttheauthor= (props) =>{
 	)
 }
 
-export default abouttheauthor
+export default ABA;

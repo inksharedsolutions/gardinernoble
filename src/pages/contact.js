@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import Inputs from "../components/Inputs/input"
 import Banner from '../components/banner'
 
-const Contact = ()=>{
+const Contact = (props)=>{
 
 
 	function OnSubmitForm (e) {
@@ -29,7 +29,7 @@ const Contact = ()=>{
 
 
     return(
-         <Layout>
+		<Layout extPath={props.path}>
             <Banner 
                     spanFirst={`Get in`}
                     contextHeading={`Touch`} 

@@ -6,7 +6,7 @@ import Footer from './footer'
 const Layout = (props)=>{
     return (  
       <>
-        <Nav/>
+        <Nav pathExt={props.extPath} />
           {props.children}
         <Footer/>
       </>

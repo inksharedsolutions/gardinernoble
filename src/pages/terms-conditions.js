@@ -5,7 +5,7 @@ import Banner from '../components/banner'
 import { useStaticQuery, graphql } from "gatsby"
 import Parser from 'html-react-parser';
 
-const TaC = () =>{
+const TaC = (props) =>{
 
 
 	const bannerText = (
@@ -36,7 +36,7 @@ const TaC = () =>{
 
 	return(
 	 	<>
-	 		<Layout>
+	 		<Layout extPath={props.path}>
                     <Banner 
                             spanFirst={`Terms And`}
                             contextHeading={`Conditions`} 
