@@ -8,7 +8,7 @@ import AuthorImg from '../../static/img/img_author_square.png'
 
      return(
         <> 
-            <Layout extPath={props.path}>
+            <Layout extPath={false}>
                 <Banner 
                     spanFirst={`About the`}
                     contextHeading={`Author`} 

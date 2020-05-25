@@ -9,7 +9,7 @@ const Footer = (props) =>{
 
 	const pages = [
 		'home',
-		'about-the-author', 
+		'about-the-author',
 		'about-the-book', 
 		'contact'
    ]

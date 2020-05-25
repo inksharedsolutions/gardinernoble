@@ -38,7 +38,7 @@ const Pp = (props) =>{
 
 	return(
 		<>
-		 	<Layout extPath={props.path}>
+		 	<Layout extPath={false}>
 
                 <Banner 
                     spanFirst={`Privacy`}

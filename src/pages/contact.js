@@ -29,7 +29,7 @@ const Contact = (props)=>{
 
 
     return(
-		<Layout extPath={props.path}>
+		<Layout extPath={false}>
             <Banner 
                     spanFirst={`Get in`}
                     contextHeading={`Touch`} 

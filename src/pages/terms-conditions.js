@@ -36,7 +36,7 @@ const TaC = (props) =>{
 
 	return(
 	 	<>
-	 		<Layout extPath={props.path}>
+	 		<Layout extPath={false}>
                     <Banner 
                             spanFirst={`Terms And`}
                             contextHeading={`Conditions`} 
