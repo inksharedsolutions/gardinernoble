@@ -45,8 +45,7 @@ const Nav = (props) =>{
 
 				<h1>
 					<Link 
-						style={props.pathExt === '/' 
-						 	|| props.pathExt === '' ? {
+						style={props.pathExt ? {
 							color:'#fff'
 						}:{
 							color: '#000'
