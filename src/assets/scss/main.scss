@@ -20,6 +20,22 @@ body{
 }
 
 
+#active-hamburger-nav{
+    .hamburger-span{
+        transition: ease-in 0.6ms;
+        &:nth-child(1){
+            transform: rotate(34deg);
+            position: relative;
+            top: 2px;
+        }
+        &:nth-child(2){
+            transform: rotate(-36deg);
+            position: relative;
+            top: -4px;
+        }
+    }
+}
+
 .navigation{
 	min-height: 10vh;	
 	width: 90%;
@@ -224,7 +240,7 @@ body{
 
 #page-num{
 	position: absolute;
-    top: 75%;
+    top: 74%;
 }
 #page-num{
     li{
@@ -507,4 +523,4 @@ body{
         z-index: 1;
         transform: translate(43px, 52px);
     }
-}       
+}    

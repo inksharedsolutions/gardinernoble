@@ -56,7 +56,7 @@ const Nav = (props) =>{
 				</h1>
 
 				<h1>Gardiner Noble.</h1>
-					<ul
+					<ul id={toggled ? 'active-hamburger-nav': ''}
 						onClick={e => clickEvent(e)}
 						ref={refSpan}>
 						<span className="hamburger-span"></span>

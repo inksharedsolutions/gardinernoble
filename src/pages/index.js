@@ -127,9 +127,9 @@ const IndexPage = (props) =>{
                   pathRedirect:`/about-the-book`,
                   imgCl : 'img-f',
                   img: image1,
-                  spanFirst :`Anthology of`,
-                  spanSecond : `Three Stories`,
-                  content:`Noble’s novel is a saucy little satire on human frailty.
+                  spanFirst :`Noble's novel is`,
+                  spanSecond : `a little satire`,
+                  content:`on human frailty.
                    It dramatizes not only the mistakes our egos and libidos often 
                    lead us into but also our inherent intellectual ability to rationalize
                     and accept less than honorable behavior.”`,
