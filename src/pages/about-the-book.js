@@ -94,7 +94,7 @@ const AboutTheBook= (props) =>{
 						<BookInfo  
 								data={{
 									title:`Silken Thomas Fitzgerald`,
-									spanTitle: "HENRY THE VII'S IRISH THORN",
+									spanTitle: "HENRY THE VIII'S IRISH THORN",
 									imgSrc: Book3,
 									id:'silken_thomas',
 									content:
