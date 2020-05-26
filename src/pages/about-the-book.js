@@ -98,7 +98,7 @@ const AboutTheBook= (props) =>{
 						<BookInfo  
 								data={{
 									title:`Silken Thomas Fitzgerald`,
-									spanTitle: 'Henry the VIIs Irish Thorn',
+									spanTitle: "Henry the VII'S Irish Thorn",
 									imgSrc: Book3,
 									content:
 									`“Silken” Thomas Fitzgerald: Henry VIII’s Irish Thorn is in the tradition of the epic novel.
