@@ -12,7 +12,7 @@ const BookInfo = (props)=>{
                     </div>
                 </div>
 
-                <div className="column">
+                <div className="column" id={props.data.id}>
                     <section className="contentBook">
 
                         <h1>{props.data.title}</h1>

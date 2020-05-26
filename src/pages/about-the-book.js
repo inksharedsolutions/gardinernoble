@@ -42,24 +42,19 @@ const AboutTheBook= (props) =>{
 					id="book-containers" >
 
 
-						<BookInfo  
+						<BookInfo
 							data={{
 								title:`Susies Submissions`,
 								spanTitle: '',
 								imgSrc: Book1,
+								id:'susies_submisision',
 								content:
-								`With over five decades of service to his country,
-								Hal is certainly not a man to be easily detoured or dissuaded from his mission.
-								This book is a real testament of how long-suffering, perseverance, loyalty,
-								integrity, and patriotism. Hal's wit and humor which he never outgrew even until today,
-								allowed him to associate with highly recognized and well-established people. 
-								His life really began after he was kicked out by his father.
-								
-								He had a bitter childhood that continued well into his teens,
-								but everything changed after he became a member of the United States Marine Corps.
-								His success was not given to him on a silver platter, it was definitely a roller-coaster adventure. 
-								He lived, he laughed, he cried, he loved, he fell, and he rose yet again.
-								From an Outhouse to the White House, and Then Some, will show you just how he did it.`,
+								`Susie’s Submissions is an anthology of three stories about attractive middle-aged women who have been abandoned by their
+								 husbands. “The Price,” “The Office,” and “The Hot Tub” depict three women who are all named Susie,
+								 and all three are physically and emotionally similar.
+
+								 The author, Gardiner Noble, hopes this book will help men and
+								 husbands to be less critical of women and never take them for granted.`,
 
 								ebooks:{
 									stratton : 'https://www.stratton-press.com/books/susies-submissions/',
@@ -79,6 +74,7 @@ const AboutTheBook= (props) =>{
 								title:`Beliefs`,
 								spanTitle: '',
 								imgSrc: Book2,
+								id:'beliefs',
 								content:
 								`The book suggests alternate interpretations of various scientific and religious dogmas.`,
 
@@ -98,8 +94,9 @@ const AboutTheBook= (props) =>{
 						<BookInfo  
 								data={{
 									title:`Silken Thomas Fitzgerald`,
-									spanTitle: "Henry the VII'S Irish Thorn",
+									spanTitle: "HENRY THE VII'S IRISH THORN",
 									imgSrc: Book3,
+									id:'silken_thomas',
 									content:
 									`“Silken” Thomas Fitzgerald: Henry VIII’s Irish Thorn is in the tradition of the epic novel.
 									The period is the 1530s. The young Irish lord “Silken” Thomas Fitzgerald has challenged the cruel
@@ -134,13 +131,14 @@ const AboutTheBook= (props) =>{
 									title:`The Gleeful Banker`,
 									spanTitle: '',
 									imgSrc: Book4,
+									id:'gleeful_banker',
 									content:
 									`Dave is a successful middle-aged banker who has grown indifferent to the needs of his	
 									 wife of twenty years. He spends most of his time successfully selling mortgage-backed
 									 securities to unsuspecting clients located around the world. Suddenly, everything begins 
 									 to fall apart in the financial crisis of 2008. So Dave must change his ways, or both him
 									 and the bank he works for will end up in the rubble.`,
-
+									
 									ebooks:{
 										stratton:'https://www.stratton-press.com/books/the-gleeful-banker/',
 										barnes: 'https://www.barnesandnoble.com/w/the-gleeful-banker-gardiner-noble/1134052030?ean=9781643457574',

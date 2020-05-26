@@ -2,8 +2,7 @@ import React, {useRef, useEffect, useState} from "react"
 import Nav from '../components/navigation'
 import PageNum from '../components/page-num'
 import  Section from '../components/section'
-import { Link } from "gatsby"
-import {Helmet} from "react-helmet"
+
 
 import { TweenMax, TimelineMax, gsap } from "gsap";
 import { CSSPlugin } from 'gsap/CSSPlugin'
@@ -122,6 +121,7 @@ const IndexPage = (props) =>{
                   title: `Sussies Sumbission`,
                   num: `01`,
                   cl : 'first_panel',
+                  idRedirect: '#susies_submisision',
                   bgClass : `first_svg_bg`,
                   pathRedirect:`/about-the-book`,
                   imgCl : 'img-f',
@@ -142,6 +142,7 @@ const IndexPage = (props) =>{
                   title: `Featured Book`,
                   num: `02`,
                   cl : 'second_panel',
+                  idRedirect: '#susies_submisision',
                   bgClass : `second_svg_bg`,
                   pathRedirect:`/about-the-book`,
                   imgCl : 'img-s',
@@ -161,6 +162,7 @@ const IndexPage = (props) =>{
                   title: `Author | Writer `,
                   num: `03`,
                   cl : 'third_panel',
+                  idRedirect: '#author',
                   bgClass : `third_svg_bg`,
                   pathRedirect:`/about-the-author`,
                   imgCl : 'img-th',
@@ -231,7 +233,7 @@ const IndexPage = (props) =>{
                     __setFunctState( sectState < 2 ? sectState+1 : 2)}
                     className="__btn arrow-right"><i class="gg-chevron-right"></i></button>
 
-              </section>      
+              </section>
 
             </main>       
           <PageNum nextState={sectState}/>

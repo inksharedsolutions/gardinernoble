@@ -24,7 +24,7 @@ import AuthorImg from '../../static/img/img_author_square.png'
                         </div>
 
 
-                        <article className="article-section">
+                        <article className="article-section" id="author">
 
                             <div className="heading-quote">
                                 <h4>

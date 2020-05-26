@@ -42,7 +42,7 @@ const Section = (props) =>{
                     <div className="block-elem-after"></div>
 
                     <div className="btn-span-elements">
-                        <Link to={props.metaData.pathRedirect} >
+                        <Link to={`${props.metaData.pathRedirect}${props.metaData.idRedirect}`} >
                             Read More
                         </Link>
                      </div>
