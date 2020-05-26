@@ -8,10 +8,10 @@ const Footer = (props) =>{
 
 
 	const pages = [
-		'home',
-		'about-the-author',
-		'about-the-book', 
-		'contact'
+		'Home',
+		'About-the-Author',
+		'About-the-Book', 
+		'Contact'
    ]
    
 	let Listed = pages.map((e) =>{
@@ -23,7 +23,7 @@ const Footer = (props) =>{
 			<li>
 				<Link 
 					to={filterUrl}>
-					{e.replace(/[-/]/g," ").trim().toLowerCase()}
+					{e.replace(/[-/]/g," ").trim()}
 				</Link>
 			</li>
 		)

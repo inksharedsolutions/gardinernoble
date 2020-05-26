@@ -210,8 +210,7 @@ const IndexPage = (props) =>{
                     <li>
                        <a
                           href="https://www.goodreads.com/author/show/19650580.Gardiner_Noble"
-                          target="_blank"
-                        >
+                          target="_blank">
                           <FontAwesomeIcon
                               className='font-awesome'
                               icon={faGoodreads} />
@@ -228,8 +227,8 @@ const IndexPage = (props) =>{
 
 
                   <button 
-                      onClick={()=>
-                      __setFunctState( sectState < 2 ? sectState+1 : 2)}
+                    onClick={()=>
+                    __setFunctState( sectState < 2 ? sectState+1 : 2)}
                     className="__btn arrow-right"><i class="gg-chevron-right"></i></button>
 
               </section>      
