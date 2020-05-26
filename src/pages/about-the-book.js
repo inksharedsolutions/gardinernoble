@@ -10,7 +10,7 @@ import Banner from '../components/banner'
 import BookInfo  from '../components/book-info/book-info'
 import ABA from './about-the-author'
 
-const ATA= (props) =>{
+const AboutTheBook= (props) =>{
 
 	const slug =(props.location.href);
 	const disqusConfig = {
@@ -166,4 +166,4 @@ const ATA= (props) =>{
 	)
 }
 
-export default ABA;
+export default AboutTheBook;

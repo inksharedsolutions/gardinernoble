@@ -53,7 +53,6 @@ const IndexPage = (props) =>{
       const nextSlideRight = nextPage.querySelector('.page_active_section .hero')
       const nextSlideLeft = nextPage.querySelector('.page_active_section .details')
   
-
       const currSlideLeft = currPage.querySelector('.details')
       const currSlideRight = currPage.querySelector('.hero')
 

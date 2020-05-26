@@ -7,23 +7,30 @@ const Nav = (props) =>{
 	const [toggled, setToggled] = useState(false);
 
 	const pages = [
-		 'home',
-		 'about-the-author', 
-		 'about-the-book', 
-		 'contact'
-	]	
+		 'Home',
+		 'About-the-Author', 
+		 'About-the-Book', 
+		 'Contact'
+	]
+
+	function capitalize(string) {
+		return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+	}
+	
 
 	let Listed = pages.map((e) =>{
  		
 		var newUrl = ((e).replace(/[ /]/g,"-").trim().toLowerCase());
 		let filterUrl = (newUrl === 'home') ? '/' : newUrl;
 
+		const res = e.replace(/[-/]/g," ").trim();
+	
 		return (
 			<li>
 				<Link 
 					to={filterUrl}>
-					{e.replace(/[-/]/g," ").trim().toLowerCase() }
-				</Link>	
+					{res}
+				</Link>
 			</li>
 		)
 	})
