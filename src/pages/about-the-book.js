@@ -32,8 +32,8 @@ const AboutTheBook= (props) =>{
 		<Layout extPath={false}>
 			
             <Banner 
-                    spanFirst={`About the`}
-					contextHeading={`Book`}
+				spanFirst={`About the`}
+				contextHeading={`Book`}
             />
 
 			<main className="wrapperMain">
