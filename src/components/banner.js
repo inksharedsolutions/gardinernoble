@@ -24,7 +24,7 @@ const Banner = (props) =>{
                                             The book suggests alternate interpretations of various scientific and religious dogmas. 
                                         </p>
                                         <button>
-                                            <Link to="">
+                                            <Link to="/about-the-book#beliefs">
                                                 Read More
                                             </Link>
                                         </button>

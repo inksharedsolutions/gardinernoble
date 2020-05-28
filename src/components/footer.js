@@ -19,7 +19,7 @@ const Footer = ()=>{
                     <nav>
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/SPPI.Official"
+                                <a href="https://www.facebook.com/Gardiner-Noble-109086423843114/"
                                    target="_blank">
                                     <FontAwesomeIcon
                                         className='font-awesome'
@@ -58,7 +58,7 @@ const Footer = ()=>{
                         </ul>
                     </nav>
 
-                    <div className="two-grid-column">
+                    <div className="two-grid-column" id="footer-info-lower">
                         <p>Copyright 2020. Stratton Press</p>
 
                         <ul>

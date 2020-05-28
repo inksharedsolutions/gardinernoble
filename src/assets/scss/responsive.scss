@@ -9,7 +9,6 @@
 
 @media only screen and (max-width: 990px) {
 
-
     .page-section{
         grid-template-columns: 5% 1fr 5%;
     } 
@@ -28,6 +27,9 @@
 
     .active-nav{
         width: 100%;
+        ul{
+            margin: 0 5em;
+        }
     }
 
     .navigation{
@@ -108,7 +110,68 @@
     .navigation-list{
         left: 11%;
     }
+
+    .banner-img{
+        display: none;
+        &:before{
+            
+        }
+    }
+
+    #banner-layout-responsive{
+        height: 70vh;
+    }
+
+    .wrapper-auth-content {
+        button{
+            margin: 2em auto;
+        }
+    }
+
+    #author-container{
+        height: auto;
+        margin: 6em 4em;
+        text-align: center;
+    }
+
+    .banner-content-wrapper{
+      text-align: center;
+      h1{
+          &:after{
+              margin:0 auto;
+          }
+      }
+    }
+
+    .grid-two-columns{
+        grid-template-columns: auto;
+    }
     
+}
+
+@media only screen and (max-width: 650px) {
+
+    .slick-initialized .slick-slide h3{
+        font-size: 1em;
+    }
+
+    .book-wrapper-slider{
+        span{
+            font-size: 12px;
+        }
+    }
+
+    .slick-slide img{
+        display: block;
+        width: 80%;
+    }
+
+    .two-grid-column{
+        display: block;
+    }
+    .footer-section{
+        padding: 19% 0;
+    }
 }
 
 
@@ -190,6 +253,12 @@
             }
         }
     }
+
+    .wrapper-auth-content {
+        h1{
+            font-size: 2em;
+        }
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -197,6 +266,10 @@
         h1{
             font-size: 2em;
         }
+    }
+
+    #footer-info p{
+        max-width: 300px;
     }
 }
 

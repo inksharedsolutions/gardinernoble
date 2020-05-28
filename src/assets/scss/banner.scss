@@ -32,6 +32,10 @@
         width: 450px;
         max-width: 100%;
         transform: translateY(20px);
+        position: relative;
+        animation-name: bounce;
+        animation-iteration-count: infinite;
+        animation-duration: 3.5s; 
     }
 
     &:before{
@@ -54,3 +58,18 @@
         content: '';
     }
 }
+
+
+@keyframes bounce {
+    0% {
+      top: 0px;
+
+    }
+    50% {
+      top: 20px;
+
+    }
+    100% {
+      top: 0px;
+    }
+  }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect } from 'react'
 import {Link} from 'gatsby'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -12,13 +12,26 @@ import Book4 from '../../static/img/book_cover_4.png'
 
 const UpperMain =()=>{
 
+    
+    const [mobState, __functState] = useState(false);
+
+
+    useEffect(() => {
+        
+        window.addEventListener("resize", ()=>{ 
+            __functState(window.innerWidth <= 760);
+        });
+
+      }, [mobState]); 
+
     var settings = {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 2,
+        slidesToShow: (window.innerWidth >= 650) ? 2 : 1,
         slidesToScroll: 1,
      };
+
 
 
     return  (

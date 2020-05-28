@@ -48,7 +48,7 @@
     #wrapper-two-books{
         margin: 5% 0;
         gap: 13px;
-
+        
         &:after{
             content:'';
         }
@@ -174,7 +174,7 @@
             li{
                 list-style-type: none;
                 a{
-                    color: #fff;
+                    color: #fff !important;
                     background: #252222;
                     padding: 9px 15px;
                     border-radius: 50%;
@@ -241,13 +241,18 @@
 
 /*Slick Custom*/
 
+.slick-slider{
+    margin: 0 70px;
+}
+
 .slick-initialized .slick-slide{
     text-align: center;
     padding: 0 10px;
     h3{
         font-size: 2em;
         color: #000;
-        margin: 1em;
+        margin: 0.6em;
+        font-weight: bold;
     }
 }
 .slick-active{
