@@ -9,6 +9,7 @@ import AuthorImg from '../../static/img/img_author_square.png'
      return(
         <> 
             <Layout extPath={false}>
+
                 <Banner 
                     spanFirst={`About the`}
                     contextHeading={`Author`} 
@@ -37,8 +38,8 @@ import AuthorImg from '../../static/img/img_author_square.png'
 
 
                             <p>
-                                    Gardiner Noble is a retired electrical engineer who spent forty years in the automobile. 
-                                    He is the inventor of the coil-on-plug ignition system, which is used in most cars manufactured around the world.
+                                Gardiner Noble is a retired electrical engineer who spent forty years in the automobile. 
+                                He is the inventor of the coil-on-plug ignition system, which is used in most cars manufactured around the world.
                             </p>
 
                             <p>
@@ -53,7 +54,7 @@ import AuthorImg from '../../static/img/img_author_square.png'
                                     Gardiner Noble
                                 </span>
                             </p>
-
+                            
                         </article>
               
 
