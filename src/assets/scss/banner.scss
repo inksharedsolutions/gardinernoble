@@ -1,0 +1,56 @@
+.banner-content-wrapper{
+    h1{
+        font-weight: bold;
+        // font-family: 'Playball', cursive;
+        font-size: 4em;
+        color: #000 !important;
+        span{
+            color: #000;
+            display: block;
+        }
+
+        &:after{
+            content: '';
+            width: 193px;
+            background: #d6a26c;
+            position: relative;
+            display: block;
+            height: 5px;
+            margin: 6px 13px
+        }
+    }
+}
+
+.banner-section{
+    background: #f7f4e9;
+    height: 70vh;
+}
+
+.banner-img{
+    text-align: center;
+    img{
+        width: 450px;
+        max-width: 100%;
+        transform: translateY(20px);
+    }
+
+    &:before{
+        content: '';
+        background: url('../../../static/svg/banner_svg.svg');
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.letter-sf-first{
+    font-family: 'Marck Script', cursive;
+    display: inline-block !important;
+    font-size: 2.4em !important;
+    color: #f39a3e !important;
+    &:before{
+        content: '';
+    }
+}
