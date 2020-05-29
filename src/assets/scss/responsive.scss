@@ -263,6 +263,16 @@
 
 @media only screen and (max-width: 450px) {
 
+    .web-banner {
+        h1{
+           font-size: 2.6em;
+        }
+
+        span{
+            letter-spacing: 0.4em;
+        }
+    }
+
     .letter-sf-first{
         font-size: 1.4em !important;
     }

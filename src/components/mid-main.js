@@ -11,32 +11,24 @@ const MidMain = ()=>{
                 <div className="container-gt separator-line">
                     <h1>Featured</h1>
                     <p className="middle-params">
-                        Gardiner Noble has been featured numerous time on...
+                        Gardiner Noble has been featured numerous time on
                     </p>
 
                     <div className="grid-template-four-col" id="logos-col">
                         <li>
-                            <a href="" target="_blank">
-                                <img src={Logo1}/>
-                            </a>
+                            <img src={Logo1}/>
                         </li>
 
                         <li>
-                            <a href="" target="_blank">
-                                <img src={Logo2}/>  
-                            </a>
+                             <img src={Logo2}/>  
                         </li>
 
                         <li>
-                            <a href="" target="_blank">
-                                <img src={Logo3}/>
-                            </a>
+                            <img src={Logo3}/>
                         </li>
 
                         <li>
-                            <a href="" target="_blank">
-                                <img src={Logo4}/>
-                            </a>
+                            <img src={Logo4}/>
                         </li>
 
                     </div>

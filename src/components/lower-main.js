@@ -16,7 +16,7 @@ const LowerMain = ()=>{
                             <p>
                                  Gardiner Noble is a retired electrical engineer who spent forty years in the 
                                  automobile. He is the inventor of the coil-on-plug ignition system, which
-                                 is used in most cars manufactured around the world..
+                                 is used in most cars manufactured around the world.
                             </p>
 
                             <h1>Gardiner Noble</h1>
