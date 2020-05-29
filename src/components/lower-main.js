@@ -24,7 +24,7 @@ const LowerMain = ()=>{
                             <span className="span-tagline">Author & Writer</span>
 
                             <button>
-                                <Link to="">
+                                <Link to="/about-the-author">
                                     Read More
                                 </Link>
                             </button>

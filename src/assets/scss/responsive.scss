@@ -262,6 +262,19 @@
 }
 
 @media only screen and (max-width: 450px) {
+
+    .letter-sf-first{
+        font-size: 1.4em !important;
+    }
+
+    .slick-slider{
+        margin: 0 20px;
+    }
+
+    #author-container{
+        margin: 6em 2em;
+    }
+
     .details{
         h1{
             font-size: 2em;
