@@ -24,11 +24,14 @@ const UpperMain =()=>{
 
       }, [mobState]); 
 
+
+      console.log(mobState);
+
     var settings = {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: (window.innerWidth >= 650) ? 2 : 1,
+        slidesToShow: (mobState) ? 1 : 2,
         slidesToScroll: 1,
      };
 
