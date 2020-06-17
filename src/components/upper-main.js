@@ -46,9 +46,7 @@ const UpperMain =()=>{
                         <h1>Books</h1>
                         
                         <p className="middle-params">
-                            Lorem Ipsum is simply dummy 
-                            text ofthe printing and 
-                            typesetting industry.
+                            Sometimes, fiction isn't a far cry from reality.
                         </p>
                     </div>
 
