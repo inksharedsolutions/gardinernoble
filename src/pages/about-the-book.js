@@ -64,7 +64,7 @@ const AboutTheBook= (props) =>{
 								paperback:{
 									amazon:'https://www.amazon.com/Susies-Submissions-Gardiner-Noble/dp/1643456318/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1571252796&sr=1-1',
 									barnes:'https://www.barnesandnoble.com/w/susies-submissions-gardiner-noble/1134052029?ean=9781643456317',
-									booksamillion:'https://www.booksamillion.com/p/Susies-Submissions/Gardiner-Noble/9781643456539?id=7714171848832',
+									booksamillion:'https://www.booksamillion.com/p/Susies-Submissions/Gardiner-Noble/9781643456317',
 								}
 							}}
 						/>
@@ -147,7 +147,7 @@ const AboutTheBook= (props) =>{
 									paperback:{
 										amazon:'https://www.amazon.com/Gleeful-Banker-Gardiner-Noble/dp/1643456350/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1571253106&sr=1-1',
 										barnes:'https://www.barnesandnoble.com/w/the-gleeful-banker-gardiner-noble/1134052030?ean=9781643456355',
-										booksamillion:'https://www.booksamillion.com/p/Beyond-Mountains-Across-Seas/Hal-Davis/9781648950124?id=7714171848832',
+										booksamillion:'https://www.booksamillion.com/p/Gleeful-Banker/Gardiner-Noble/9781643456355',
 								}
 							}}
 						/>
