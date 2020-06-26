@@ -248,6 +248,10 @@ button{
 
 
 #non-active-hamburger{
+
+    display: none;
+    flex-direction: column;
+
     .hamburger-span{
         width: 25px;
         display: block;

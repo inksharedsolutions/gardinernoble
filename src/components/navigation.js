@@ -78,16 +78,16 @@ const Nav = (props) =>{
 							 Contact
 						</Link>
 					</li>
-
-					<ul id={toggled ? 'active-hamburger-nav': 'non-active-hamburger'}	
-						onClick={e => clickEvent(e)}
-						ref={refSpan}>
-						<span className="hamburger-span"></span>
-						<span className="hamburger-span"></span>
-					</ul>
-
-
 				</ul>
+
+				
+				<ul id={toggled ? 'active-hamburger-nav': 'non-active-hamburger'}	
+					onClick={e => clickEvent(e)}
+					ref={refSpan}>
+					<span className="hamburger-span"></span>
+					<span className="hamburger-span"></span>
+				</ul>
+
 
 			</nav>
 		
