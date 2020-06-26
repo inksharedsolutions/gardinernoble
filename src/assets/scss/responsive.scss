@@ -294,13 +294,22 @@
             span{
                 
                 &:nth-child(4){
-                    font-size: 26px;
+                    font-size: 15px;
+                    margin: 12px 0;
                 }
 
                 &:nth-child(4){
                     line-height: 1.5;
                 }
             }
+        }
+
+        p{
+            font-size: 13px;
+        }
+
+        .span-tag-review{
+            margin: 0 1em;
         }
     }
 
