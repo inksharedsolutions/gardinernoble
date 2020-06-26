@@ -1,8 +1,25 @@
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1450px) {
     .navigation{
         padding: 0 10%;
     }
+
+    .banner-img{
+        &:before{
+            right: 6vw;
+        }
+    }
+
+    .banner-content-wrapper{
+        p{
+            font-size: 14px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1250px) {
+
 
     .banner-content-wrapper{
         h1{
