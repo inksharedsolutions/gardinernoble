@@ -30,8 +30,8 @@ const UpperMain =()=>{
     var settings = {
         dots: true,
         infinite: true,
-        speed: 500,
-        slidesToShow: (mobState) ? 1 : 2,
+        speed: 1500,
+        slidesToShow: (mobState) ? 1 : 4,
         slidesToScroll: 1,
      };
 

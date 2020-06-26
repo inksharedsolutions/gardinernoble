@@ -43,33 +43,46 @@ const Nav = (props) =>{
         <> 
 			<nav className="navigation"
 				style={props.pathExt  ? {
-						borderBottom: '1px solid rgb(41, 41, 41)'
+						borderBottom: ''
 					}:{
-						borderBottom: '1px solid rgb(255, 255, 255)'
+						borderBottom: ''
 						}
 					}
-				>
+				>	
+
+				<ul>
+					<li>
+						<Link to="/">
+							 Home
+						</Link>
+					</li>
+					<li>
+						<Link to="/about-the-book">
+							About The Book
+						</Link>
+					</li>
+				</ul>
 
 				<h1>
-					<Link 
-						style={props.pathExt ? {
-							color:'#fff'
-						}:{
-							color: '#000'
-						}}
-						to="/"
-					>GN.</Link>
+					Gardiner Noble.
 				</h1>
 
-				<h1>Gardiner Noble.</h1>
-					<ul id={toggled ? 'active-hamburger-nav': ''}
-						onClick={e => clickEvent(e)}
-						ref={refSpan}>
-						<span className="hamburger-span"></span>
-						<span className="hamburger-span"></span>
-					</ul>
-			</nav>
+				<ul id="">
+					<li>
+						<Link to="/about-the-author">
+							 About The Author
+						</Link>
+					</li>
+					<li>
+						<Link to="/contact">
+							 Contact
+						</Link>
+					</li>
+				</ul>
 
+			</nav>
+		
+		{/* 
 			<section className={toggled ? 'active-nav': 'non-active-nav'}>
 
 				<span className="close-mark" onClick={e => clickEvent(e)}>
@@ -89,7 +102,8 @@ const Nav = (props) =>{
 					}
 
 				</ul>
-			</section>
+			</section> */}
+
         </>			
     )
 }

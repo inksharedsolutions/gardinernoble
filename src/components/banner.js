@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import '../assets/scss/pages.scss'
-import BannerImg from '../../static/img/banner_yoga.png'
+import BannerImg from '../../static/banner/img_banner.png'
 
 const Banner = (props) =>{
 
@@ -18,10 +18,19 @@ const Banner = (props) =>{
                                 <div className="left-col">
                                     <div className="banner-content-wrapper">
                                         <h1>
-                                            <span><span className="letter-sf-first">B</span>eliefs</span> 
+                                            <span>Silken</span>
+                                            <span>Thomas</span>
+                                            <span>Fitsgerald</span> 
+                                            <span>Henry the VIII'S irish thorn</span>
                                         </h1>
                                         <p>
-                                            The book suggests alternate interpretations of various scientific and religious dogmas. 
+                                            Very entertaining.
+                                            Very informative.
+                                            History come alive.
+
+                                            <span className="span-tag-review">
+                                                cairn o noble
+                                            </span>
                                         </p>
                                         <button>
                                             <Link to="/about-the-book#beliefs">

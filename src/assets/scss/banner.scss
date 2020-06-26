@@ -1,50 +1,108 @@
 .banner-content-wrapper{
     h1{
         font-weight: bold;
-        // font-family: 'Playball', cursive;
         font-size: 4em;
         color: #000 !important;
         span{
-            color: #000;
+            color: #fff !important;
             display: block;
+
+            &:nth-child(1){
+                font-family: 'Crimson Text', serif;
+                font-size: 47px;
+                text-transform: capitalize;
+                font-style: italic;
+                color: #d28534 !important;
+            }
+            &:nth-child(4){
+                font-size: 20px;
+                display: block;
+                margin: 33px 0;
+                letter-spacing: 5px;
+            }
         }
 
-        &:after{
+        // &:after{
+        //     content: '';
+        //     width: 193px;
+        //     background: #d6a26c;
+        //     position: relative;
+        //     display: block;
+        //     height: 5px;
+        //     margin: 3px 0;
+        // }
+    }
+
+    p{
+        &:before{
             content: '';
-            width: 193px;
+            width: 3px;
             background: #d6a26c;
             position: relative;
-            display: block;
-            height: 5px;
-            margin: 6px 13px
+            display: inline-block;
+            height: 27px;
+            margin: 16px 13px;
+            transform: translateY(24px);
+        }
+    }
+
+    .span-tag-review{
+        display: block;
+        font-size: 16px;
+        margin: 15px 1em;
+        text-transform: capitalize;
+        font-family: 'Crimson Text', serif;
+        font-style: italic;
+        color: #f5ededee !important;
+        text-align: right;
+        &:before{
+            content: '';
+            width: 51px;
+            background: #f5ededee;
+            position: relative;
+            display: inline-block;
+            height: 1px;
+            margin: 13px 13px;
+            transform: translateY(9px);
         }
     }
 }
 
 .banner-section{
-    background: #f7f4e9;
-    height: 70vh;
+    background: #1f1f1e;
+    height: 80vh;
+
+    background-image: url("../../../static/banner/banner.png");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner-img{
     text-align: center;
     img{
-        width: 450px;
+        width: 480px;
         max-width: 100%;
-        transform: translateY(20px);
+        transform: translateY(-1px);
         position: relative;
-        animation-name: bounce;
-        animation-iteration-count: infinite;
-        animation-duration: 3.5s; 
+        z-index: 10;
     }
 
     &:before{
         content: '';
-        background: url('../../../static/svg/banner_svg.svg');
-        width: 500px;
-        height: 500px;
+        width: 406px;
+        background: #2a2a2a;
         position: absolute;
-        background-repeat: no-repeat;
+        display: block;
+        height: 93vh;
+        margin: 0px AUTO;
+        right: 15vw;
+        top: 0;
+        z-index: 1;
+        
     }
 }
 

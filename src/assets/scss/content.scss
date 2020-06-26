@@ -223,10 +223,9 @@
 
 
 .book-wrapper-slider{
-
-    background: #ffffff;
+    background: #48474752;
     padding: 6%;
-    box-shadow: -1px 1px 28px 4px #f1f1f1;
+    // box-shadow: -1px 1px 28px 4px #0e0e0e;
     border-radius: 50px;
     margin: 10px 0;
 }
@@ -249,10 +248,14 @@
     text-align: center;
     padding: 0 10px;
     h3{
-        font-size: 2em;
-        color: #000;
+        font-size: 19px;
+        color: #fff;
         margin: 0.6em;
         font-weight: bold;
+    }
+    span{
+        font-size: 12px;
+        color: #929292 !important;
     }
 }
 .slick-active{

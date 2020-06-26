@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap');
+
 @import 'banner';
 @import 'content';
 @import 'footer';
@@ -15,7 +18,7 @@
 	line-height: 1;
 	box-sizing:border-box;
 }
-  
+    
 p{
 	line-height: 2;
 }
@@ -30,9 +33,11 @@ body{
 }
 h1,h2{
     font-size: 1.6em;
+    color: #fff;
 }
 h3,h4{
     font-size: 1.2em;
+    color: #fff;
 }
 
 h5,h6{
@@ -42,11 +47,12 @@ h5,h6{
 
 p,a,qoute,span,blockquote{
     font-size: 1.2em;
-    color: #4c4c4cee !important;
+    color: #d4cdcdee !important;
 }
 
-
-
+#___gatsby{
+    background: linear-gradient(180deg, #000000d9 0, #353535);
+}
 
 p{
     line-height: 1.7;
@@ -54,10 +60,14 @@ p{
 }
 
 button{
-    background-color: rgb(255, 202, 0);
+    
+    background-color: #b77f40;
     border: none;
-    padding: 2% 20px;
+    padding: 4% 26px;
     margin-top: 6%;
+    text-transform: uppercase;
+    font-weight: bold;
+
     a{
         color: #fff !important;
         text-decoration: none;
@@ -70,8 +80,8 @@ button{
 .grid-two-columns{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 70vh;
-    margin: 0 5%;
+    height: 80vh;
+    margin: 0 10%;
     align-items: center;
 }
 
@@ -88,31 +98,47 @@ button{
 }
 
 .separator-line{
-    border-bottom: 1px solid #d6d1d1ee;
+    border-bottom: 1px solid #404040ee;
 }
 
 
-
-
 /*Nav*/
-
-
 .navigation{
-	min-height: 10vh;	
-	width: 90%;
-	margin:auto;
-	border-bottom: 1px solid #292929;
-	display: flex;
-	justify-content: space-between;
+    min-height: 13vh;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid #292929;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    
+    background: #1f1f1e;
+    padding: 0 25%;
+    position: relative;
+    z-index: 2;
+
     ul {
-        padding: 1em 12px;
-        border-radius: 50%;
-        background: #ffca00;
-        cursor: pointer;
-        position: relative;
-        // z-index: 99999;
+        // padding: 1em 12px;
+        // border-radius: 50%;
+        // background: #ffca00;
+        // cursor: pointer;
+        // position: relative;
+        // // z-index: 99999;
+        display: flex;
+        
+        li{
+            padding: 0 1em;
+
+            [aria-current="page"]{
+                color: #d6a26c !important;
+                border-bottom: 3px solid #d6a26c;
+            }
+        }
+
+        a{
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
     }
 
     ul > .hamburger-span{
