@@ -1,4 +1,16 @@
 
+@media only screen and (max-width: 1250px) {
+    .navigation{
+        padding: 0 15%;
+    }
+
+    .banner-content-wrapper{
+        h1{
+            font-size: 3em;
+        }
+    }
+}
+
 @media only screen and (max-width: 1050px) {
     .details {
         h1{
@@ -12,6 +24,11 @@
     .page-section{
         grid-template-columns: 5% 1fr 5%;
     } 
+
+
+    .span-tag-review{
+        text-align: center;
+    }
 
     .svg-bg,.svg-bg-author,.svg-bg-books{
         display: none;
@@ -33,6 +50,7 @@
     }
 
     .navigation{
+        
         h1{
             &:nth-child(2){
                 text-align: center;
@@ -119,7 +137,7 @@
     }
 
     #banner-layout-responsive{
-        height: 70vh;
+        height: 80vh;
     }
 
     .wrapper-auth-content {

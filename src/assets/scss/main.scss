@@ -8,7 +8,7 @@
 
 @import 'banner';
 @import 'content';
-@import 'footer';
+@import 'footer';       
 
 *,
 *::after,   
@@ -117,12 +117,14 @@ button{
     z-index: 2;
 
     ul {
+
         // padding: 1em 12px;
         // border-radius: 50%;
         // background: #ffca00;
         // cursor: pointer;
         // position: relative;
         // // z-index: 99999;
+
         display: flex;
         
         li{
@@ -141,14 +143,7 @@ button{
         }
     }
 
-    ul > .hamburger-span{
-        width: 25px;
-        display: block;
-        height: 3px;
-        background: #fff;
-        margin: 3px 0;
-        cursor: pointer;
-    }
+
 
     h1{
         font-weight: 900;
@@ -251,6 +246,18 @@ button{
     top: 42px;
 }
 
+
+#non-active-hamburger{
+    .hamburger-span{
+        width: 25px;
+        display: block;
+        height: 3px;
+        background: #fff;
+        margin: 3px 0;
+        cursor: pointer;
+    }
+}
+
 .non-active-nav{
     display:none;
 }
@@ -268,4 +275,4 @@ button{
     100% {
       width: 0px;
     }
-  }
+}
