@@ -24,12 +24,11 @@ const Banner = (props) =>{
                                             <span>Henry the VIII'S irish thorn</span>
                                         </h1>
                                         <p>
-                                            Very entertaining.
-                                            Very informative.
-                                            History come alive.
 
+                                            Fun read, great historical story!
+                                            
                                             <span className="span-tag-review">
-                                                cairn o noble
+                                                Eric Bertram
                                             </span>
                                         </p>
                                         <button>

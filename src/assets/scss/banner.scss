@@ -47,14 +47,16 @@
     }
 
     .span-tag-review{
+        
         display: block;
         font-size: 16px;
-        margin: 0px 1em;
+        margin: 0 0 0 23%;
         text-transform: capitalize;
         font-family: 'Crimson Text', serif;
         font-style: italic;
         color: #f5ededee !important;
-        text-align: right;
+        text-align: left;
+
         &:before{
             content: '';
             width: 51px;
