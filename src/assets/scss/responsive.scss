@@ -12,7 +12,18 @@
 
     .banner-content-wrapper{
         p{
-            font-size: 14px;
+           font-size: 17px;
+        }
+
+        h1{
+            span{
+                &:nth-child(1){
+                    font-size: 25px !important;
+                }
+                &:nth-child(4){
+                    font-size: 15px;
+                }
+            }
         }
     }
 }
@@ -23,7 +34,7 @@
 
     .banner-content-wrapper{
         h1{
-            font-size: 3em;
+            font-size: 3vw;
         }
     }
 }
