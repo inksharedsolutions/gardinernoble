@@ -78,7 +78,6 @@ const AboutTheBook= (props) =>{
 								`The book suggests alternate interpretations of various scientific and religious dogmas.`,
 
 								ebooks:{
-									stratton : 'https://www.stratton-press.com/books/beliefs/',
 									barnes: 'https://www.barnesandnoble.com/w/beliefs-gardiner-noble/1134052027?ean=9781643457536',
 									amazon :'https://www.amazon.com/Beliefs-Gardiner-Noble-ebook/dp/B07Z44C55F/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1571251847&sr=8-1', 
 								},
@@ -112,7 +111,6 @@ const AboutTheBook= (props) =>{
 									efforts of Frances, and a priest friend, fail to obtain amnesty for Thomas. `,
 
 									ebooks:{
-										stratton : 'https://www.stratton-press.com/books/silken-thomas-fitzgerald-henry-the-viiis-irish-thorn/',
 										barnes: 'https://www.barnesandnoble.com/w/silken-thomas-fitzgerald-gardiner-allen-noble/1130420227?ean=9781643459707',
 										amazon :'https://www.amazon.com/Silken-Thomas-Fitzgerald-Henry-VIIIs-ebook/dp/B0872JK54N/ref=sr_1_1?dchild=1&keywords=Silken+Thomas+Fitzgerald&qid=1590184851&sr=8-1', 
 									},
@@ -139,7 +137,6 @@ const AboutTheBook= (props) =>{
 									 and the bank he works for will end up in the rubble.`,
 									
 									ebooks:{
-										stratton:'https://www.stratton-press.com/books/the-gleeful-banker/',
 										barnes: 'https://www.barnesandnoble.com/w/the-gleeful-banker-gardiner-noble/1134052030?ean=9781643457574',
 										amazon :'https://www.amazon.com/Gleeful-Banker-Gardiner-Noble-ebook/dp/B07Z4393CF/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1571253106&sr=1-1', 
 									},
