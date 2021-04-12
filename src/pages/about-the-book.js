@@ -57,7 +57,6 @@ const AboutTheBook= (props) =>{
 								 husbands to be less critical of women and never take them for granted.`,
 
 								ebooks:{
-									stratton : 'https://www.stratton-press.com/books/susies-submissions/',
 									barnes: 'https://www.barnesandnoble.com/w/susies-submissions-gardiner-noble/1134052029?ean=9781643457567',
 									amazon :'https://www.amazon.com/Susies-Submissions-Gardiner-Noble-ebook/dp/B07Z46HBBT/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1571252796&sr=1-1', 
 								},
